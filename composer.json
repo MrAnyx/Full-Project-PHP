@@ -1,0 +1,12 @@
+{
+    "name": "bidanchr/project_blog",
+    "authors": [
+        {
+            "name": "MrAnyx",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^4.3"
+    }
+}
