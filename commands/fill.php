@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 require dirname(__DIR__) . '../vendor/autoload.php';
 
@@ -7,7 +7,6 @@ $faker = Faker\Factory::create("fr_FR");
 $pdo = new PDO("mysql:dbname=blog_php;host=127.0.0.1", "root", "MDPbdd", [
 	PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
 ]);
-
 
 $pdo->exec("SET FOREIGN_KEY_CHECKS = 0");
 
